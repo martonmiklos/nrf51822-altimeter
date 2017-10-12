@@ -10551,7 +10551,7 @@ http://dangerousprototypes.com</description>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X1" library="Testing" deviceset="USB-AB" device="IN&amp;OUT"/>
+<part name="USB" library="Testing" deviceset="USB-AB" device="IN&amp;OUT"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
@@ -10620,7 +10620,7 @@ MMA8452:    0x1C</text>
 <instance part="GND10" gate="1" x="139.7" y="22.86"/>
 <instance part="+3V10" gate="G$1" x="111.76" y="142.24"/>
 <instance part="GND11" gate="1" x="109.22" y="111.76"/>
-<instance part="X1" gate="G$1" x="175.26" y="160.02" rot="R180"/>
+<instance part="USB" gate="G$1" x="175.26" y="160.02" rot="R180"/>
 <instance part="GND3" gate="1" x="185.42" y="147.32"/>
 <instance part="GND12" gate="1" x="228.6" y="137.16"/>
 <instance part="P+1" gate="1" x="226.06" y="154.94"/>
@@ -10755,7 +10755,7 @@ MMA8452:    0x1C</text>
 <wire x1="109.22" y1="124.46" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="GND"/>
+<pinref part="USB" gate="G$1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="180.34" y1="154.94" x2="185.42" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="154.94" x2="185.42" y2="149.86" width="0.1524" layer="91"/>
@@ -11002,13 +11002,13 @@ MMA8452:    0x1C</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="X1" gate="G$1" pin="VBUS"/>
+<pinref part="USB" gate="G$1" pin="VBUS"/>
 <wire x1="187.96" y1="165.1" x2="180.34" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DP" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="D+"/>
+<pinref part="USB" gate="G$1" pin="D+"/>
 <wire x1="180.34" y1="160.02" x2="193.04" y2="160.02" width="0.1524" layer="91"/>
 <label x="213.36" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="ZD1" gate="G$1" pin="C"/>
@@ -11041,7 +11041,7 @@ MMA8452:    0x1C</text>
 </net>
 <net name="DM" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="D-"/>
+<pinref part="USB" gate="G$1" pin="D-"/>
 <wire x1="180.34" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
 <label x="213.36" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="ZD2" gate="G$1" pin="C"/>
